@@ -1,0 +1,5 @@
+python-telegram-bot
+loguru
+pydantic
+pydantic-settings
+aiosmtplib
