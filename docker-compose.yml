@@ -1,0 +1,12 @@
+---
+services:
+  telegram2mail:
+    image: alfchao/telegram2mail:local
+    container_name: telegram2mail
+    hostname: telegram2mail
+    restart: unless-stopped
+    environment:
+      - bot_token=
+      - admin_chat_id=
+    volumes:
+      - /opt/calibre-web/autoaddbooks:/storage   
